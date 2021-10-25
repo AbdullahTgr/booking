@@ -81,27 +81,19 @@ span.place {
 
                             <div class="travel-select-icon">
                                 <select class="form-control ">
-
                                       <option value="default">enter your destination country</option><!-- /.option-->
-
                                       <option value="turkey">turkey</option><!-- /.option-->
-
                                       <option value="russia">russia</option><!-- /.option-->
                                       <option value="egept">egypt</option><!-- /.option-->
-
                                 </select><!-- /.select-->
                             </div><!-- /.travel-select-icon -->
 
                             <div class="travel-select-icon">
                                 <select class="form-control ">
-
                                       <option value="default">enter your destination location</option><!-- /.option-->
-
                                       <option value="istambul">istambul</option><!-- /.option-->
-
                                       <option value="mosko">mosko</option><!-- /.option-->
                                       <option value="cairo">cairo</option><!-- /.option-->
-
                                 </select><!-- /.select-->
                             </div><!-- /.travel-select-icon -->
 
