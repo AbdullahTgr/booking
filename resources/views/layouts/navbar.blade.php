@@ -21,16 +21,13 @@
 								</div><!-- /.navbar-header-->
 								<div class="collapse navbar-collapse">		  
 									<ul class="nav navbar-nav navbar-right">
+
 										<li class="smooth-menu"><a href="#home">Stays</a></li>
 										<li class="smooth-menu"><a href="#gallery">Flights</a></li>
-										<li class="smooth-menu"><a href="#pack">Packages </a></li>
-										<li class="smooth-menu"><a href="#spo">Special Offers</a></li>
-										<li class="smooth-menu"><a href="#blog">blog</a></li>
-										<li class="smooth-menu"><a href="#subs">subscription</a></li>
-										<li>
-											<button class="book-btn">book now
-											</button>
-										</li><!--/.project-btn--> 
+										<li class="smooth-menu"><a href="#pack">Car  Rental </a></li>
+										<li class="smooth-menu"><a href="#spo">Attractions</a></li>
+										<li class="smooth-menu"><a href="#blog">Airport Taxis</a></li>
+										
 									</ul>
 								</div><!-- /.navbar-collapse -->
 							</div><!-- /.main-menu-->

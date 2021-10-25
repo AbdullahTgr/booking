@@ -50,6 +50,7 @@
 <!--responsive.css-->
 <link rel="stylesheet" href="assets/css/responsive.css" />
 
+<link rel="stylesheet" href="css/tasks.css" />
 
 
 
