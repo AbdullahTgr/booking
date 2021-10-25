@@ -1,3 +1,35 @@
+/*==================================
+* Author        : "ThemeSine"
+* Template Name : Travel
+* Version       : 1.0
+==================================== */
+
+/*==================================
+
+font-family: 'Poppins', sans-serif;
+
+==================================== */
+
+/*=========== TABLE OF CONTENTS ===========
+
+1.  General css (Reset code)
+2. 	Header
+3. 	About
+5.  Travel-box
+5.  Service
+6.  Gallery
+7.  Discount-offer
+8.  Packages
+9.  Testemonial 
+10. Special Offer
+11. Blog
+12. Subscribe
+13. Footer-copyright
+===========*/
+
+/*-------------------------------------
+		1.General css (Reset code)
+--------------------------------------*/
 *{
     padding: 0;
     margin: 0;
@@ -125,18 +157,18 @@ html,body{
 
 }
 .is-sticky .header-area:after{
-    position: absolute;
-    content: '';
-    background: rgb(62 62 62);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    -webkit-transition: all 0.5s linear;
-    -moz-transition: all 0.5s linear;
-    -ms-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
+    position:absolute;
+    content:'';
+    background: rgba(77,78,84,1);
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:-1;
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -ms-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
     transition: all 0.5s linear;
 }
 .sticky-wrapper.is-sticky .main-menu .nav a:before{
@@ -265,14 +297,15 @@ html,body{
 		3. 	About
 --------------------------------------*/
 .about-us{
-	display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-	position: relative;
-	background: url(../../assets/images/home/banner.jpg)no-repeat;
-	background-size: cover;
-	background-position: center;
-	min-height: 1000px;
+    position: relative;
+    background: url(../../assets/images/home/banner.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    padding-top: 10%;
 }
 .about-us:before{
 	position: absolute;
@@ -281,7 +314,7 @@ html,body{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #2098d19e;
+	background: rgba(0,122,207,.4);
 }
 
 /*about-us-content*/
@@ -289,12 +322,12 @@ html,body{
 	margin: -175px 0 0 0;
 }
 .about-us h2 {
-	color:#fff;	
-	font-size:84px;
-	text-transform: inherit;
-	max-width: 800px;
-	font-weight: 600;
-	line-height: 1.22;
+    color: #fff;
+    font-size: 45px;
+    text-transform: inherit;
+    max-width: 800px;
+    font-weight: 600;
+    line-height: 1.22;
 }
 .about-us h2 span{
 	color:#2bdab5;
@@ -361,27 +394,6 @@ html,body{
     border-right: 1px solid #fff;
 }
 
-.desc-tabs .nav-tabs>li.active>a:focus, 
-.desc-tabs .nav-tabs>li.active>a:hover {
-    color: #565a5c;
-    text-decoration: none;
-}
-.desc-tabs .nav-tabs>li>a{
-    color: #00d8ff;
-    background: #ffffff;
-    cursor: default;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    text-transform: capitalize;
-    padding: 17px 40px 17px 46px;
-    border: 0;
-    -webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
-	-o-transition:.5s;
-    transition: .5s;
-}
 .desc-tabs .nav-tabs>li.active>a{
 	color: #fff;
     background: #00d8ff;
@@ -390,6 +402,27 @@ html,body{
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
+    -webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+}
+.desc-tabs .nav-tabs>li.active>a:focus, 
+.desc-tabs .nav-tabs>li.active>a:hover {
+    color: #565a5c;
+    text-decoration: none;
+}
+.desc-tabs .nav-tabs>li>a{
+	color: #fff;
+    background: #00d8ff;
+    cursor: default;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    padding: 17px 40px 17px 46px;
+    border: 0;
     -webkit-transition: .5s; 
 	-moz-transition:.5s; 
 	-ms-transition:.5s; 
@@ -467,16 +500,16 @@ html,body{
 }/*select*/
 
 .travel-select-icon .form-control,.travel-check-icon .form-control{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -o-appearance: none;
-    -ms-appearance: none;
-    appearance: none;
-    outline: 0!important;
-    box-shadow: none;
-    border: 1px solid #00d8ff;
-    border-radius: 27px 0 0 27px;
-    margin-bottom: 20px;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-o-appearance:none;
+	-ms-appearance:none;
+	appearance:none;
+	outline:0!important;
+	box-shadow:none;
+	border:1px solid #d7d7d7;
+	border-radius: 0px;
+	margin-bottom: 20px;
 }/*.travel-select-icon .form-control*/
 
 /*.trip-circle*/
