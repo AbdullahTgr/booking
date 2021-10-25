@@ -6,7 +6,7 @@
 						<div class="col-sm-2">
 							<div class="logo">
 								<a href="index.html">
-									tour<span>Nest</span>
+									GO<span>TOURS</span>
 								</a>
 							</div><!-- /.logo-->
 						</div><!-- /.col-->
@@ -21,8 +21,8 @@
 								</div><!-- /.navbar-header-->
 								<div class="collapse navbar-collapse">		  
 									<ul class="nav navbar-nav navbar-right">
-										<li class="smooth-menu"><a href="#home">home</a></li>
-										<li class="smooth-menu"><a href="#gallery">Destination</a></li>
+										<li class="smooth-menu"><a href="#home">Stays</a></li>
+										<li class="smooth-menu"><a href="#gallery">Flights</a></li>
 										<li class="smooth-menu"><a href="#pack">Packages </a></li>
 										<li class="smooth-menu"><a href="#spo">Special Offers</a></li>
 										<li class="smooth-menu"><a href="#blog">blog</a></li>

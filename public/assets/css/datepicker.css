@@ -11,10 +11,12 @@
 .datepicker-container {
   background-color: #fff;
   direction: ltr;
-  font-size: 12px;
+  width: 20%;
+  font-size: 15px;
+  padding: 14px;
   left: 0;
-  line-height: 30px;
   position: fixed;
+  border: 1px soid;
   top: 0;
   -ms-touch-action: none;
   touch-action: none;
@@ -22,7 +24,6 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 210px;
   z-index: -1;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
