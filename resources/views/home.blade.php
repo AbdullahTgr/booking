@@ -1,3 +1,6 @@
+@php
+    $nav_trans = true;
+@endphp
 @extends('layouts.app')
 
 @section('content')

@@ -68,6 +68,27 @@
 
     @yield('scripts')  
 
+    @if (!isset($nav_trans))
+        <style>
+             .header-area:after{
+    position:absolute;
+    content:'';
+    background: rgba(77,78,84,1);
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:-1;
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -ms-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+             }
+             .header-area{
+                width: 1903px; position: fixed; top: 0px; z-index: inherit;
+             }
+        </style>
+    @endif
 
 
 </body>

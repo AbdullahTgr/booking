@@ -9,14 +9,14 @@ h5.font-weight-bold {
 {
     margin-bottom: 5px;
 }
-mt-5
+.mt-5
 {
     margin-top: 5px;
 }
 
 .fa-star
 {
-    color: #40bcef;
+    color: #ff9222;
     font-size: 18px;
     margin: 2px;
 }
@@ -53,13 +53,13 @@ label {
 }
 span.place {
     position: absolute;
-    background: #45c5eb;
+    background: #ff9222;
     color: #fff;
     right: -1px;
     padding: 8px;
     top: -1px;
     font-size: 13px;
-    border: 1px solid #45c5eb;
+    border: 1px solid #ff9222;
 }
 
 span.wish_list {
@@ -76,4 +76,15 @@ span.wish_list {
 }
 .text-warning {
     color: #923e01;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #ff9222;
+    border-color: #f98a18;
+}
+.btn-info:hover
+{
+    background-color: #f08e2d;
+    border-color: #f78a1e;
 }
