@@ -580,44 +580,8 @@
 		<!--gallery end-->
 
 
-		<!--discount-offer start-->
-		<section class="discount-offer">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="dicount-offer-content text-center">
-							<h2>Join with us within 7 March, 2019 and get upto 40% Discount</h2>
-							<div class="campaign-timer">
-								<div id="timer">
-									<div class="time time-after" id="days">
-										<span></span>
-									</div><!--/.time-->
-									<div class="time time-after" id="hours">
-
-									</div><!--/.time-->
-									<div class="time time-after" id="minutes">
-
-									</div><!--/.time-->
-									<div class="time" id="seconds">
-
-									</div><!--/.time-->
-								</div><!--/.timer-->
-							</div><!--/.campaign-timer-->
-							<div class="about-btn">
-								<button  class="about-view discount-offer-btn">
-									join now
-								</button>
-							</div><!--/.about-btn-->
-
-
-						</div><!-- /.dicount-offer-content-->
-					</div><!-- /.col-->
-				</div><!-- /.row-->
-			</div><!-- /.container-->
-
-		</section><!-- /.discount-offer-->
-		<!--discount-offer end-->
-
+		
+		
 
 		<!--packages end-->
 
@@ -847,82 +811,6 @@
 		<!-- testemonial End -->
 
 
-		<!--special-offer start-->
-		<section id="spo" class="special-offer">
-			<div class="container">
-				<div class="special-offer-content">
-					<div class="row">
-						<div class="col-sm-8">
-							<div class="single-special-offer">
-								<div class="single-special-offer-txt">
-									<h2>thiland</h2>
-									<div class="packages-review special-offer-review">
-										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
-										</p>
-									</div><!--/.packages-review-->
-									<div class="packages-para special-offer-para">
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i> 5 Days 6 nights
-											</span>
-											<span>
-												<i class="fa fa-angle-right"></i> 2 person
-											</span>
-											<span>
-												<i class="fa fa-angle-right"></i>  5 star accomodation
-											</span>
-										</p>
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i>  transportation
-											</span>
-											<span>
-												<i class="fa fa-angle-right"></i>  food facilities
-											</span>  
-										</p>
-										<p class="offer-para">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem ut labore et dolore magna  aliqua. Ut enim ad minim veniam, quis nostrud exercitation una <br> ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-										</p>
-									</div><!--/.packages-para-->
-									<div class="offer-btn-group">
-										<div class="about-btn">
-											<button  class="about-view packages-btn offfer-btn">
-												make tour
-											</button>
-										</div><!--/.about-btn-->
-										<div class="about-btn">
-											<button  class="about-view packages-btn">
-												book now
-											</button>
-										</div><!--/.about-btn-->
-									</div><!--/.offer-btn-group-->
-								</div><!--/.single-special-offer-txt-->
-							</div><!--/.single-special-offer-->
-						</div><!--/.col-->
-						<div class="col-sm-4">
-							<div class="single-special-offer">
-								<div class="single-special-offer-bg">
-									<img src="assets/images/offer/offer-shape.png" alt="offer-shape">
-								</div><!--/.single-special-offer-bg-->
-								<div class="single-special-shape-txt">
-									<h3>special offer</h3>
-									<h4><span>40%</span><br>off</h4>
-									<p><span>$999</span><br>reguler $ 1450</p>
-								</div><!--/.single-special-shape-txt-->
-							</div><!--/.single-special-offer-->
-						</div><!--/.col-->
-					</div><!--/.row-->
-				</div><!--/.special-offer-content-->
-			</div><!--/.container-->
-
-		</section><!--/.special-offer end-->
-		<!--special-offer end-->
 
 		<!--blog start-->
 		<section id="blog" class="blog">
@@ -930,10 +818,10 @@
 				<div class="blog-details">
 						<div class="gallary-header text-center">
 							<h2>
-								latest news
+								Explore Egypt
 							</h2>
 							<p>
-								Travel News from all over the world 
+								These popular destinations have a lot to offer
 							</p>
 						</div><!--/.gallery-header-->
 						<div class="blog-content">
@@ -1025,10 +913,10 @@
 			<div class="container">
 				<div class="subscribe-title text-center">
 					<h2>
-						Join our Subscribers List to Get Regular Update
+						Hi Abdullah! You're at Genius Level 1
 					</h2>
 					<p>
-						Subscribe Now. We will send you Best offer for your Trip 
+						Enjoy free lifetime access to discounts at participating properties worldwide
 					</p>
 				</div>
 				<form>

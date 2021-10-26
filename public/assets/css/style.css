@@ -184,7 +184,7 @@ html,body{
     padding: 10px 0 0 0;
 }
 .logo a span{
-    color: #00d8ff;
+    color: #ff9222;
     text-transform: capitalize;
 }
 
@@ -220,7 +220,7 @@ html,body{
 .main-menu  .nav  li.active a,
 .main-menu  .nav  li a:hover,
 .main-menu .nav  li a:focus{
-    color: #00d8ff;
+    color: #ff9222;
     background-color:transparent;
 }
 .main-menu .nav a:before{
@@ -240,7 +240,7 @@ html,body{
 }
 .main-menu .nav li.active  a:before,
 .main-menu .nav a:hover:before{
-    background: #00d8ff;
+    background: #ff9222;
     width: 100%;
 }
 
@@ -254,7 +254,7 @@ html,body{
     float:left;
 }
 .main-menu .navbar-toggle {
-    color: #00d8ff;
+    color: #ff9222;
 }
 .main-menu .navbar-default .navbar-toggle:focus, 
 .main-menu .navbar-default .navbar-toggle:hover {
@@ -263,13 +263,13 @@ html,body{
 
 
 .home-border{
-    border-top:2px solid #fff;
+    border-top:1px solid #fff;
 }
 
 /*book-btn*/
 .book-btn {
-	background: #00d8ff;
-    border: 1px solid #00d8ff;
+	background: #ff9222;
+    border: 1px solid #ff9222;
     width: 120px;
     height: 40px;
     white-space: nowrap;
@@ -287,8 +287,8 @@ html,body{
 }
 .book-btn:hover{
     color: #fff;
-    background: #00d8d5;
-    border: 1px solid #00d8d5;
+    background: #ff9222;
+    border: 1px solid #ff9222;
 }/*book-btn*/
 
 /*-------------------------------------
@@ -312,7 +312,7 @@ html,body{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0,122,207,.4);
+	background:rgb(255 146 34 / 18%);
 }
 
 /*about-us-content*/
@@ -344,8 +344,8 @@ html,body{
 	display: flex;
     justify-content: center;
     align-items: center;
-    background: #00d8ff;
-    border: 1px solid #00d8ff;
+    background: #ff9222;
+    border: 1px solid #ff9222;
     width: 200px;
     height: 60px;
     white-space: nowrap;
@@ -354,7 +354,6 @@ html,body{
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     border-radius: 5px;
-    box-shadow: 0 5px 20px rgba(14,15,18,.2);
     -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
     -ms-transition: 0.5s ease-in-out;
@@ -363,9 +362,8 @@ html,body{
 }
 .about-btn:hover .about-view{
     color: #fff;
-    background: #00d8d5;
-    box-shadow: 0 5px 20px rgba(14,15,18,.7);
-	border: 1px solid #00d8d5;
+    background: #ff9222;
+	border: 1px solid #ff9222;
 }
 .travel-mrt-0{
     margin-top: 0px;
@@ -394,7 +392,7 @@ html,body{
 
 .desc-tabs .nav-tabs>li.active>a{
 	color: #fff;
-    background: #00d8ff;
+    background: #ff9222;
     cursor: default;
     font-size: 20px;
     font-weight: 500;
@@ -413,7 +411,7 @@ html,body{
 }
 .desc-tabs .nav-tabs>li>a{
 	color: #fff;
-    background: #00d8ff;
+    background: #ff9222;
     cursor: default;
     font-size: 20px;
     font-weight: 500;
@@ -564,7 +562,7 @@ html,body{
 }
 
 .single-trip-circle input[type="radio"]:checked + label span.round-boarder1{
-     background-color:#00d8ff;
+     background-color:#ff9222;
 }
 
 .single-trip-circle input[type="radio"] + label span.round-boarder1,
@@ -600,8 +598,8 @@ html,body{
 	border-radius: 5px;
 }
 .price_filter .ui-slider-handle.ui-state-default.ui-corner-all {
-    background: #00d8ff none repeat scroll 0 0;
-    border: 0px solid #00d8ff;
+    background: #ff9222 none repeat scroll 0 0;
+    border: 0px solid #ff9222;
     border-radius:50%;
     height: 12px;
     width: 12px;
@@ -609,7 +607,7 @@ html,body{
     cursor: pointer;
     z-index: 1;
 }
-.price_filter .ui-slider-range {background: #00d8ff none repeat scroll 0 0;}
+.price_filter .ui-slider-range {background: #ff9222 none repeat scroll 0 0;}
 .price_slider_amount > input[type="text"] {
     font-weight: 500;
     font-size: 14px;
@@ -1006,7 +1004,7 @@ html,body{
     background: #aaa; 
 }
 .testemonial .owl-theme .owl-dots .owl-dot.active span{
-    background: #00d8ff;
+    background: #ff9222;
 }/*owl-carousel*/
 
 /*home1-testm-txt*/
@@ -1023,7 +1021,7 @@ html,body{
 }
 .home1-testm-txt h3 a{
     display: block;
-    color: #00d8ff;
+    color: #ff9222;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -1342,7 +1340,7 @@ html,body{
 
 /*appsLand-btn*/
 .appsLand-btn {
-    background: #00d8ff;
+    background: #ff9222;
     display: inline-block;
     padding: 17px 54px;
     text-decoration: none;
@@ -1371,7 +1369,7 @@ html,body{
 }
 .appsLand-btn:hover {
     box-shadow: 0 3px 25px rgba(2, 3, 3, 0.25);
-    background: #00d8ff;
+    background: #ff9222;
 }
 
 .appsLand-btn.appsLand-btn-larg {
@@ -1421,7 +1419,7 @@ html,body{
     padding: 10px 0 0 0;
 }
 .footer-logo a>span {
-    color: #00d8ff;
+    color: #ff9222;
     text-transform: capitalize;
 } 
 .footer-logo p{
@@ -1452,7 +1450,7 @@ html,body{
     -ms-transition:scaleX(1.2);
     -o-transition:scaleX(1.2);
     transform:scaleX(1.2);
-    color: #00d8ff;
+    color: #ff9222;
 }/*single-footer-txt*/
 
 .footer-copyright hr{
@@ -1499,7 +1497,7 @@ html,body{
 }
 
 .foot-icons .footer-social-links a:hover {
-    /*color: #00d8d5;*/
+    /*color: #ff9222;*/
     color: #2cdbb5;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -1513,7 +1511,7 @@ html,body{
     margin-top:28px;
 }
 .foot-icons p a,.foot-icons p a:hover,.foot-icons p a:focus{
-    color:#00d8ff;
+    color:#ff9222;
     font-size:16px;
     margin-top:28px;
 }/*foot-icons*/
@@ -1535,8 +1533,8 @@ html,body{
     cursor: pointer;
     z-index:15;
     color: #fff;
-    background:#00d8ff;
-	border:1px solid #00d8ff;
+    background:#ff9222;
+	border:1px solid #ff9222;
 	border-radius:5px;
 	-webkit-transition: .5s; 
 	-moz-transition:.5s; 
