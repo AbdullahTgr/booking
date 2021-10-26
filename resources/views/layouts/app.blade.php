@@ -51,6 +51,7 @@
 <link rel="stylesheet" href="assets/css/responsive.css" />
 
 <link rel="stylesheet" href="css/tasks.css" />
+<link rel="stylesheet" href="{{asset('assets/css/booking_trip.css')}}" />
 
 
 

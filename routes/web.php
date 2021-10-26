@@ -21,3 +21,6 @@ Route::get('/', function () {
 Route::get('/search', function () {
     return view('trips.search');
 });
+Route::get('/book_trip', function () {
+    return view('trips.book_trip');
+});

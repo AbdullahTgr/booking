@@ -2,79 +2,14 @@
 
 @section('content')
  
-<style>
-    section#sidebar {
-    padding: 6px;
-    border: 1px solid #eee;
-}
-h5.font-weight-bold {
-    font-weight: bold;
-}
-.mb-5
-{
-    margin-bottom: 5px;
-}
-mt-5
-{
-    margin-top: 5px;
-}
 
-.fa-star
-{
-    color: #40bcef;
-    font-size: 18px;
-    margin: 2px;
-}
-
-.tick .text-muted
-{
-    color: #afe3dcd1;
-}
-input[type="checkbox"] {
-    float: right;
-    text-align: right;
-}
-label {
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 5px;
-    width: 100%;
-      font-weight: 300;
-}
-.main-card
-{
-}
-.panel
-{
-    transition: all 0.5s ease;
-    cursor: pointer;
-    box-shadow: 0 0 12px 0 rgb(0 0 0 / 12%);
-    padding: 5px;
-    position: relative;
-}
-.panel:hover
-{
-    transform: scale(1.04);
-}
-span.place {
-    position: absolute;
-    background: #45c5eb;
-    color: #fff;
-    right: -1px;
-    padding: 8px;
-    top: -1px;
-    font-size: 13px;
-    border: 1px solid #45c5eb;
-}
-</style>
-
-<div class="container">
+<div class="container" style=" width: 1470px; ">
     <div class="row" style=" margin-top: 102px; ">
         <div class="col-md-12">
             <div class="tab-para">
 	
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="col-lg-2 col-md-4 col-sm-12">
                         <div class="single-tab-select-box">
 
                             <h2>destination</h2>
@@ -88,6 +23,14 @@ span.place {
                                 </select><!-- /.select-->
                             </div><!-- /.travel-select-icon -->
 
+
+
+                        </div><!--/.single-tab-select-box-->
+                    </div><!--/.col-->
+
+                    <div class="col-lg-2 col-md-4 col-sm-12">
+                        <div class="single-tab-select-box">
+                            <h2>location</h2>
                             <div class="travel-select-icon">
                                 <select class="form-control ">
                                       <option value="default">enter your destination location</option><!-- /.option-->
@@ -96,9 +39,8 @@ span.place {
                                       <option value="cairo">cairo</option><!-- /.option-->
                                 </select><!-- /.select-->
                             </div><!-- /.travel-select-icon -->
-
-                        </div><!--/.single-tab-select-box-->
-                    </div><!--/.col-->
+                        </div>
+                    </div>
 
                     <div class="col-lg-2 col-md-3 col-sm-4">
                         <div class="single-tab-select-box">
@@ -129,9 +71,7 @@ span.place {
                                 <select class="form-control ">
 
                                       <option value="default">5</option><!-- /.option-->
-
                                       <option value="10">10</option><!-- /.option-->
-
                                       <option value="15">15</option><!-- /.option-->
                                       <option value="20">20</option><!-- /.option-->
 
@@ -145,14 +85,10 @@ span.place {
                             <h2>members</h2>
                             <div class="travel-select-icon">
                                 <select class="form-control ">
-
                                       <option value="default">1</option><!-- /.option-->
-
                                       <option value="2">2</option><!-- /.option-->
-
                                       <option value="4">4</option><!-- /.option-->
                                       <option value="8">8</option><!-- /.option-->
-
                                 </select><!-- /.select-->
                             </div><!-- /.travel-select-icon -->
                         </div><!--/.single-tab-select-box-->
@@ -162,16 +98,14 @@ span.place {
 
                 <div class="row">
                     <div class="col-sm-5">
-
                     </div><!--/.col-->
                     <div class="clo-sm-7">
-                        <div class="about-btn travel-mrt-0 pull-right">
-                            <button class="about-view travel-btn">
+                        <div style=" margin-right: 14px; " class="about-btn travel-mrt-0 pull-right">
+                            <button class="btn btn-info">
                                 search	
                             </button><!--/.travel-btn-->
                         </div><!--/.about-btn-->
                     </div><!--/.col-->
-
                 </div><!--/.row-->
 
             </div>
@@ -235,8 +169,9 @@ span.place {
             
             <div class="row">
                 <div class="col-md-12 main-card">
-                    <div class="panel">
+                    <div class="panel scale-card">
                         <span class="place">Luxor</span>
+                        <span class="wish_list"><i class="fa fa-heart"></i></span>
                         <div class="panel-body">
                            <div class="row">
                                <div class="col-md-3">
@@ -254,8 +189,9 @@ span.place {
                       </div>
                 </div>
                 <div class="col-md-12 main-card">
-                    <div class="panel">
+                    <div class="panel scale-card">
                         <span class="place">Cairo</span>
+                        <span class="wish_list"><i class="fa fa-heart-o"></i></span>
                         <div class="panel-body">
                            <div class="row">
                                <div class="col-md-3">
@@ -273,8 +209,9 @@ span.place {
                       </div>
                 </div>
                 <div class="col-md-12 main-card">
-                    <div class="panel">
+                    <div class="panel scale-card">
                         <span class="place">Aswan</span>
+                        <span class="wish_list"><i class="fa fa-heart-o"></i></span>
                         <div class="panel-body">
                            <div class="row">
                                <div class="col-md-3">
@@ -292,8 +229,9 @@ span.place {
                       </div>
                 </div>
                 <div class="col-md-12 main-card">
-                    <div class="panel">
+                    <div class="panel scale-card">
                         <span class="place">Giza</span>
+                        <span class="wish_list"><i class="fa fa-heart"></i></span>
                         <div class="panel-body">
                            <div class="row">
                                <div class="col-md-3">
