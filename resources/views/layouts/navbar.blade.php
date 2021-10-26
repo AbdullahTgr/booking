@@ -5,9 +5,10 @@
 					<div class="row">
 						<div class="col-sm-2">
 							<div class="logo">
-								<a href="index.html">
-									GO<span>TOURS</span>
-								</a>
+									<img style="
+									width: 80%;
+    padding-top: 10px;
+									" src="{{asset('assets/logo/favicon.png')}}">
 							</div><!-- /.logo-->
 						</div><!-- /.col-->
 						<div class="col-sm-10">
