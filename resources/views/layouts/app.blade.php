@@ -52,6 +52,7 @@
 
 <link rel="stylesheet" href="css/tasks.css" />
 <link rel="stylesheet" href="{{asset('assets/css/booking_trip.css')}}" />
+<link rel="stylesheet" href="{{asset('assets/css/select_box.css')}}" />
 
 
 
@@ -67,7 +68,6 @@
     </div>
 
     @yield('scripts')  
-
     @if (!isset($nav_trans))
         <style>
              .header-area:after{
