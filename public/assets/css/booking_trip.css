@@ -16,7 +16,7 @@ h5.font-weight-bold {
 
 .fa-star
 {
-    color: #ff9222;
+    color: #7e0000;
     font-size: 18px;
     margin: 2px;
 }
@@ -53,13 +53,13 @@ label {
 }
 span.place {
     position: absolute;
-    background: #ff9222;
+    background: #7e0000;
     color: #fff;
     right: -1px;
     padding: 8px;
     top: -1px;
     font-size: 13px;
-    border: 1px solid #ff9222;
+    border: 1px solid #7e0000;
 }
 
 span.wish_list {
@@ -80,7 +80,7 @@ span.wish_list {
 
 .btn-info {
     color: #fff;
-    background-color: #ff9222;
+    background-color: #7e0000;
     border-color: #f98a18;
 }
 .btn-info:hover

@@ -10,6 +10,13 @@
     -moz-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
     -ms-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
 }
+.vvd li a{
+  padding: 5px !important;
+}
+.vvd li{
+  padding: 2px 10px!important;
+    text-align: center!important;
+}
 .card {
     position: relative;
     display: flex;
