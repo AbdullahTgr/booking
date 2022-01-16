@@ -24,3 +24,7 @@ Route::get('/search', function () {
 Route::get('/book_trip', function () {
     return view('trips.book_trip');
 });
+
+Route::get('/check', function () {
+    return view('check');
+});
