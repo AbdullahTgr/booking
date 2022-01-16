@@ -9,7 +9,7 @@
 							<div class="single-footer-item">
 								<div class="footer-logo">
 									<a href="index.html">
-										GO<span>TOURS</span>
+										SP<span>AN</span>
 									</a>
 									<p>
 										best travel agency
@@ -64,9 +64,9 @@
 				<hr>
 				<div class="foot-icons ">
 					<ul class="footer-social-links list-inline list-unstyled">
-		                <li><a href="#" target="_blank" class="foot-icon-bg-1"><i class="fa fa-facebook"></i></a></li>
-		                <li><a href="#" target="_blank" class="foot-icon-bg-2"><i class="fa fa-twitter"></i></a></li>
-		                <li><a href="#" target="_blank" class="foot-icon-bg-3"><i class="fa fa-instagram"></i></a></li>
+		                <li><a href="https://www.facebook.com/spansoftware" target="_blank" class="foot-icon-bg-1"><i class="fa fa-facebook"></i></a></li>
+		                <li><a href="https://twitter.com/abdulla91310534" target="_blank" class="foot-icon-bg-2"><i class="fa fa-twitter"></i></a></li>
+		                <li><a href="https://www.instagram.com/spandevelopers/" target="_blank" class="foot-icon-bg-3"><i class="fa fa-instagram"></i></a></li>
 		        	</ul>
 		        	<p>&copy; 2021 <a href="">Abdullah Mostafa</a>. All Right Reserved</p>
 
