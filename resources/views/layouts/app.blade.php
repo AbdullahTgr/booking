@@ -14,11 +14,17 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
+    <title>سبان </title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <!-- Favicons -->
+    <link rel="icon" href="assets/img/span.jpg" type="image/gif">
+    <link href="assets/img/span.jpg" rel="">
     <!-- Styles -->
 <!-- CSS only -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
-<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+<link rel="shortcut icon" type="image/icon" href="assets/img/span.jpg"/>
 <!--font-awesome.min.css-->
 <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 
